@@ -53,7 +53,7 @@
                     <relocations>
                         <relocation>
                             <pattern>org.apache.bcel</pattern>
-                            <shadedPattern>org.inst.testInstrumentation.bcel</shadedPattern>
+                            <shadedPattern>org.apache.shaded.bcel</shadedPattern>
                         </relocation>
                         <!-- Add more relocations if needed -->
                     </relocations>

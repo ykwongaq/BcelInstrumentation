@@ -1,4 +1,4 @@
-package wyk.instrumentation;
+package wyk.instrumentation.target;
 
 public class Main {
 

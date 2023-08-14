@@ -1,4 +1,4 @@
-package wyk.instrumentation;
+package wyk.instrumentation.instrumentator;
 
 import java.lang.instrument.Instrumentation;
 
