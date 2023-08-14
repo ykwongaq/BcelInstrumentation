@@ -1,16 +1,13 @@
 package wyk.instrumentation.instrumentator;
 
 import org.apache.bcel.classfile.ClassParser;
-import org.apache.bcel.classfile.ConstantPool;
 import org.apache.bcel.classfile.JavaClass;
 import org.apache.bcel.classfile.Method;
 import org.apache.bcel.generic.*;
 
 import java.io.ByteArrayInputStream;
-import java.io.FileOutputStream;
 import java.lang.instrument.ClassFileTransformer;
 import java.security.ProtectionDomain;
-import java.sql.SQLOutput;
 
 public class MethodNameTransformer implements ClassFileTransformer {
     @Override

@@ -16,7 +16,7 @@ public class Main {
         final String javaAgentPath = Paths.get("MethodNameInstrumentator", "target", "instrumentator.jar").toString();
         final String classPath = Paths.get("TargetProject", "classes").toString();
         final String targetProject = Paths.get("TargetProject", "src", "main", "java", "wyk", "instrumentation", "target", "Main.java").toString();
-//
+
         int exitCode;
         exitCode = compileTargetProject();
         if (exitCode != 0) {
